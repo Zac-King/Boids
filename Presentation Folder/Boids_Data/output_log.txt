@@ -16,7 +16,7 @@ Platform assembly: C:\Users\zac.king\Desktop\Boids\Presentation Folder\Boids_Dat
 Loading C:\Users\zac.king\Desktop\Boids\Presentation Folder\Boids_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\Users\zac.king\Desktop\Boids\Presentation Folder\Boids_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
 Loading C:\Users\zac.king\Desktop\Boids\Presentation Folder\Boids_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-- Completed reload, in  0.059 seconds
+- Completed reload, in  0.040 seconds
 desktop: 1920x1080 60Hz; virtual: 3000x1920 at 0,-840
 <RI> Initializing input.
 XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
@@ -25,6 +25,6 @@ XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
 Platform assembly: C:\Users\zac.king\Desktop\Boids\Presentation Folder\Boids_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\zac.king\Desktop\Boids\Presentation Folder\Boids_Data\Managed\System.dll (this message is harmless)
 Setting up 3 worker threads for Enlighten.
-  Thread -> id: 108c -> priority: 1 
-  Thread -> id: 156c -> priority: 1 
-  Thread -> id: fdc -> priority: 1 
+  Thread -> id: 11a4 -> priority: 1 
+  Thread -> id: 1810 -> priority: 1 
+  Thread -> id: 194c -> priority: 1 
