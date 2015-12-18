@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System.Collections;
 using System.Collections.Generic;
 
 public class BoidManager : MonoBehaviour {
@@ -39,9 +40,19 @@ public class BoidManager : MonoBehaviour {
 
     #region #BoidHandlers
     [ContextMenu("Populate")]
-    private void PopBoids()
+    public void PopBoids()
     {
+        foreach(GameObject b in BoidAgents)
+        {
+            Destroy(b);
+        }
+        BoidAgents = new List<GameObject>();
         CreateBoid();
+    }
+
+    public void BoidNum(UnityEngine.UI.Slider slider)
+    {
+        numberOfBoids = (int)slider.value;
     }
 
     void CreateBoid()
